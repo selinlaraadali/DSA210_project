@@ -10,38 +10,32 @@ The dataset used in this project is collected through the iOS Health app on my i
 - Sleep duration: Total hours of sleep per day as recorded by the Health app.
 - Walking speed: Average walking speed (km/h) per day.
 
-## Project Goals
-- Identify trends and correlations between sleep duration and walking speed.
-- Use visualizations (scatter plots, time series) to highlight patterns.
-- Perform statistical analysis to quantify the strength of the relationship.
-- Build a regression model to predict walking speed based on sleep duration.
-
 ## Plan
--Data Cleaning and Preparation:
+### Data Cleaning and Preparation:
 
-Handle missing or inconsistent data points.
-Normalize sleep duration and walking speed metrics for consistency.
+-Handling missing or inconsistent data points.
+-Normalizing sleep duration and walking speed metrics for consistency.
 
--Exploratory Data Analysis (EDA):
+### Exploratory Data Analysis (EDA):
 
-Generate descriptive statistics for sleep and walking speed.
-Use scatter plots and correlation matrices to explore relationships.
+-Generating descriptive statistics for sleep and walking speed.
+-Using scatter plots and correlation matrices to explore relationships.
 
--Visualization:
+### Visualization:
 
-Create time series visualizations to analyze daily/weekly trends.
-Use scatter plots to show the correlation between sleep duration and walking speed.
+-Creating time series visualizations to analyze daily/weekly trends.
+-Using scatter plots to show the correlation between sleep duration and walking speed.
 
--Modeling:
+### Modeling:
 
-Apply a simple linear regression model to predict walking speed based on sleep duration.
-Evaluate the model's performance using metrics like R² and Mean Absolute Error (MAE).
+-Applying a simple linear regression model to predict walking speed based on sleep duration.
+-Evaluating the model's performance using metrics like R² and Mean Absolute Error (MAE).
 
--Findings and Insights:
+### Findings and Insights:
 
-Summarize key insights from the analysis, including any notable correlations or thresholds.
+-Summarizing key insights from the analysis, including any notable correlations or thresholds.
 
--Limitations and Future Work:
+### Limitations and Future Work:
 
-Discuss the dataset's limitations, such as the sample size and potential confounders (e.g., physical activity levels).
-Suggest areas for further exploration or improvements in data collection.
+-Discussing the dataset's limitations, such as the sample size and potential confounders (e.g., physical activity levels).
+-Suggesting areas for further exploration or improvements in data collection.
