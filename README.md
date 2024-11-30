@@ -24,26 +24,31 @@ The dataset used in this project is collected through the iOS Health app on my i
 ### Data Cleaning and Preparation:
 
 -Handling missing or inconsistent data points.
+
 -Normalizing sleep duration and walking speed metrics for consistency.
 
 ### Exploratory Data Analysis (EDA):
 
 -Generating descriptive statistics for sleep and walking speed.
+
 -Using scatter plots and correlation matrices to explore relationships.
 
 ### Visualization:
 
 -Creating time series visualizations to analyze daily/weekly trends.
+
 -Using scatter plots to show the correlation between sleep duration and walking speed.
 
 ### Hypothesis Testing:
 
 -Conducting statistical tests to validate the relationship between sleep duration and walking speed.
+
 -Using statistical methods to determine if the effect of sleep duration on walking speed is statistically significant.
 
 ### Modeling:
 
 -Applying a simple linear regression model to predict walking speed based on sleep duration.
+
 -Evaluating the model's performance using metrics like R² and Mean Absolute Error (MAE).
 
 ### Findings and Insights:
@@ -53,4 +58,5 @@ The dataset used in this project is collected through the iOS Health app on my i
 ### Limitations and Future Work:
 
 -Discussing the dataset's limitations, such as the sample size and potential confounders (e.g., physical activity levels).
+
 -Suggesting areas for further exploration or improvements in data collection.
