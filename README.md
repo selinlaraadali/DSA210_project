@@ -18,6 +18,7 @@ The dataset used in this project is collected through the iOS Health app on my i
 
 ## Plan
 -Data Cleaning and Preparation:
+
 Handle missing or inconsistent data points.
 Normalize sleep duration and walking speed metrics for consistency.
 
@@ -27,16 +28,20 @@ Generate descriptive statistics for sleep and walking speed.
 Use scatter plots and correlation matrices to explore relationships.
 
 -Visualization:
+
 Create time series visualizations to analyze daily/weekly trends.
 Use scatter plots to show the correlation between sleep duration and walking speed.
 
 -Modeling:
+
 Apply a simple linear regression model to predict walking speed based on sleep duration.
 Evaluate the model's performance using metrics like R² and Mean Absolute Error (MAE).
 
 -Findings and Insights:
+
 Summarize key insights from the analysis, including any notable correlations or thresholds.
 
 -Limitations and Future Work:
+
 Discuss the dataset's limitations, such as the sample size and potential confounders (e.g., physical activity levels).
 Suggest areas for further exploration or improvements in data collection.
