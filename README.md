@@ -1,5 +1,6 @@
 # DSA210_project
-Exploring the relationship between sleep duration and walking speed
+Sleep and Walking Speed Analysis
+
 Motivation
 Sleep is a critical factor in physical and cognitive health. Walking speed, often considered an indicator of physical performance and energy levels, may also reflect cognitive well-being and overall alertness. By examining the relationship between sleep duration and walking speed, this project seeks to provide insights into how sleep quality can influence day-to-day activities and personal health. This analysis not only helps uncover trends but also aims to inspire better sleep habits for enhanced physical and mental performance.
 
