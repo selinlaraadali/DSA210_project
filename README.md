@@ -6,6 +6,7 @@ This project examines the correlation between sleep duration and walking speed u
 
 ### Hypotheses:
 -Null Hypothesis (H₀): Sleep duration has no significant effect on walking speed.
+
 -Alternative Hypothesis (Hₐ): Sleep duration has a significant effect on walking speed.
 
 The project uses data cleaning, exploratory data analysis (EDA), visualizations, and a simple linear regression model to analyze the relationship and test the hypotheses.
