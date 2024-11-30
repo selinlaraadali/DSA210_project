@@ -12,7 +12,7 @@ This project examines the correlation between sleep duration and walking speed u
 The project uses data cleaning, exploratory data analysis (EDA), visualizations, and a simple linear regression model to analyze the relationship and test the hypotheses.
 
 ## Motivation
-As someone who values maintaining a balanced and active lifestyle, I’ve always been interested in understanding how sleep impacts my physical performance and overall well-being. Sleep is not just a time for rest but a cornerstone of both physical and cognitive health. Through this project, I aim to explore the relationship between sleep duration and walking speed, uncovering how my daily habits may influence my energy levels and physical activity. 
+As someone who values maintaining a balanced and active lifestyle, I’ve always been interested in understanding how sleep impacts my physical performance and overall well-being. Sleep is not just a time for rest but a cornerstone of both physical and cognitive health, which are also considered to be correlated with walking speed. Through this project, I aim to explore the relationship between sleep duration and walking speed, uncovering how my daily habits may influence my energy levels and physical activity. 
 
 ## Data Source
 The dataset used in this project is collected through the iOS Health app on my iPhone, which tracks daily health metrics. The data includes:
@@ -35,6 +35,11 @@ The dataset used in this project is collected through the iOS Health app on my i
 
 -Creating time series visualizations to analyze daily/weekly trends.
 -Using scatter plots to show the correlation between sleep duration and walking speed.
+
+### Hypothesis Testing:
+
+-Conducting statistical tests to validate the relationship between sleep duration and walking speed.
+-Using statistical methods to determine if the effect of sleep duration on walking speed is statistically significant.
 
 ### Modeling:
 
