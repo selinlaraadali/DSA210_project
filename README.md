@@ -2,7 +2,7 @@
 # Sleep and Walking Speed Analysis
 
 ## Description
-This project examines the correlation between sleep duration and walking speed using personal health data collected from the iOS Health app. By analyzing daily sleep and walking metrics, the project seeks to uncover trends and test hypotheses about the impact of sleep on physical performance.
+This project examines the correlation between sleep duration and walking speed using personal health data collected from the iOS Health app. By analyzing daily sleep and walking metrics, the project seeks to uncover trends and test hypotheses about the impact of sleep on walking metrics.
 
 ### Hypotheses:
 -Null Hypothesis (H₀): Sleep duration has no significant effect on walking speed.
@@ -12,7 +12,7 @@ This project examines the correlation between sleep duration and walking speed u
 The project uses data cleaning, exploratory data analysis (EDA), visualizations, and a simple linear regression model to analyze the relationship and test the hypotheses.
 
 ## Motivation
-As someone who values maintaining a balanced and active lifestyle, I’ve always been interested in understanding how sleep impacts my physical performance and overall well-being. Sleep is not just a time for rest but a cornerstone of both physical and cognitive health. Through this project, I aim to explore the relationship between sleep duration and walking speed, uncovering how my daily habits may influence my energy levels and physical activity. This analysis is also an opportunity to learn more about myself using data science techniques, inspiring actionable insights for a healthier routine.
+As someone who values maintaining a balanced and active lifestyle, I’ve always been interested in understanding how sleep impacts my physical performance and overall well-being. Sleep is not just a time for rest but a cornerstone of both physical and cognitive health. Through this project, I aim to explore the relationship between sleep duration and walking speed, uncovering how my daily habits may influence my energy levels and physical activity. 
 
 ## Data Source
 The dataset used in this project is collected through the iOS Health app on my iPhone, which tracks daily health metrics. The data includes:
