@@ -1,8 +1,17 @@
 # DSA210_project
 # Sleep and Walking Speed Analysis
 
+## Description
+This project examines the correlation between sleep duration and walking speed using personal health data collected from the iOS Health app. By analyzing daily sleep and walking metrics, the project seeks to uncover trends and test hypotheses about the impact of sleep on physical performance.
+
+### Hypotheses:
+-Null Hypothesis (H₀): Sleep duration has no significant effect on walking speed.
+-Alternative Hypothesis (Hₐ): Sleep duration has a significant effect on walking speed.
+
+The project uses data cleaning, exploratory data analysis (EDA), visualizations, and a simple linear regression model to analyze the relationship and test the hypotheses.
+
 ## Motivation
-Sleep is a critical factor in physical and cognitive health. Walking speed, often considered an indicator of physical performance and energy levels, may also reflect cognitive well-being and overall alertness. By examining the relationship between sleep duration and walking speed, this project seeks to provide insights into how sleep quality can influence day-to-day activities and personal health. This analysis not only helps uncover trends but also aims to inspire better sleep habits for enhanced physical and mental performance.
+As someone who values maintaining a balanced and active lifestyle, I’ve always been interested in understanding how sleep impacts my physical performance and overall well-being. Sleep is not just a time for rest but a cornerstone of both physical and cognitive health. Through this project, I aim to explore the relationship between sleep duration and walking speed, uncovering how my daily habits may influence my energy levels and physical activity. This analysis is also an opportunity to learn more about myself using data science techniques, inspiring actionable insights for a healthier routine.
 
 ## Data Source
 The dataset used in this project is collected through the iOS Health app on my iPhone, which tracks daily health metrics. The data includes:
