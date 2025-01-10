@@ -5,9 +5,9 @@
 This project examines the correlation between sleep duration and walking speed using personal health data collected from the iOS Health app. By analyzing daily sleep and walking metrics, the project seeks to uncover trends and test hypotheses about the impact of sleep on walking metrics.
 
 ### Hypotheses:
--Null Hypothesis (H₀): Sleep duration has no significant effect on walking speed.
+- Null Hypothesis (H₀): Sleep duration has no significant effect on walking speed.
 
--Alternative Hypothesis (Hₐ): Sleep duration has a significant effect on walking speed.
+- Alternative Hypothesis (Hₐ): Sleep duration has a significant effect on walking speed.
 
 The project uses data cleaning, exploratory data analysis (EDA), visualizations, and a simple linear regression model to analyze the relationship and test the hypotheses.
 
@@ -23,19 +23,19 @@ The dataset used in this project is collected through the iOS Health app on my i
 ## Plan
 ### Data Cleaning and Preparation:
 
--Loading Data:
+- Loading Data:
 
 Daily sleep data was loaded and aggregated into weekly sleep duration using the start and end times. Daily walking speed data was similarly aggregated into weekly averages.
 
--Handling Missing Data:
+- Handling Missing Data:
 
 Missing values were identified and removed to ensure data consistency.
 
--Aligning Weekly Data:
+- Aligning Weekly Data:
 
 Weekly datasets for sleep and walking speed were merged on the common week column to retain only matching weeks.
 
--Normalization:
+- Normalization:
 
 Data columns were verified to ensure proper formats and consistent scales.
 
@@ -43,23 +43,21 @@ Data columns were verified to ensure proper formats and consistent scales.
 
 1) Univariate Analysis
 
-Sleep Duration:
+- Sleep Duration:
 
 The histogram showed a right-skewed distribution with most weekly sleep durations between 6 to 8 hours. The boxplot highlighted outliers in sleep durations exceeding 10 hours.
 
-Walking Speed:
+- Walking Speed:
 
-The walking speed data followed a nearly normal distribution, with the majority of values clustering around 3.8 to 4.2 km/h.
-
-The boxplot showed minimal variability, with no significant outliers.
+The walking speed data followed a nearly normal distribution, with the majority of values clustering around 3.8 to 4.2 km/h. The boxplot showed minimal variability, with no significant outliers.
 
 2) Bivariate Analysis
 
-Correlation Analysis:
+- Correlation Analysis:
 
 Scatterplot visualizations depicted a weak positive correlation between sleep duration and walking speed. The linear regression line was overlaid on the scatterplot to observe the relationship visually.
 
-Outlier Detection:
+3) Outlier Detection:
 
 Z-Score Analysis: Sleep duration outliers were detected using a z-score threshold of 3 and one significant outlier (11.03 hours) was removed. No outliers were found in walking speed data.
 
@@ -87,9 +85,9 @@ Steps:
 
 3) Evaluate the model on validation and test sets.
 
-Evaluation Metrics:
+- Evaluation Metrics:
 
--Validation Set:
+1) Validation Set:
 
 Mean Squared Error (MSE): 0.04
 
@@ -97,7 +95,7 @@ Mean Absolute Error (MAE): 0.18
 
 R-squared (R²): 0.08
 
--Test Set:
+2) Test Set:
 
 Mean Squared Error (MSE): 0.07
 
@@ -114,22 +112,28 @@ The model shows a weak predictive power (low R² values), indicating that other 
 
 ### Findings and Insights:
 
-Correlation Analysis: A weak positive correlation exists between weekly sleep duration and walking speed, supported by the Pearson correlation coefficient.
+- Correlation Analysis: A weak positive correlation exists between weekly sleep duration and walking speed, supported by the Pearson correlation coefficient.
 
-Hypothesis Testing: The null hypothesis was rejected, confirming a statistically significant relationship.
+- Hypothesis Testing: The null hypothesis was rejected, confirming a statistically significant relationship.
 
-Modeling Performance: The linear regression model demonstrated limited predictive power, suggesting the need for additional features or more complex models.
+- Modeling Performance: The linear regression model demonstrated limited predictive power, suggesting the need for additional features or more complex models.
 
 ### Limitations and Future Work:
 
-Data Limitations:
+- Data Limitations:
 
 The dataset is limited to weekly aggregated data, potentially missing day-to-day variations. Potential confounding variables (e.g., physical activity levels, health conditions) were not included.
 
-Modeling Improvements:
+- Modeling Improvements:
 
 Explore multivariate models incorporating additional features such as physical activity or heart rate. Experiment with non-linear models can be done to capture complex relationships.
 
-Expanded Analysis:
+- Expanded Analysis:
 
 Analysis can be extended to daily data with larger sample sizes. Seasonal or temporal trends in sleep and walking metrics can be investigated.
+
+### Conclusion
+
+This project explored the relationship between sleep duration and walking speed using weekly aggregated data. While a statistically significant relationship was identified, the correlation was weak, and predictive modeling highlighted the need for additional factors to improve accuracy. These findings emphasize the complexity of the relationship between sleep and physical performance, paving the way for further research.
+
+
